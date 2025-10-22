@@ -1,0 +1,11 @@
+#mainNavbar {
+  transition: top 0.5s;
+}
+
+.navbar-hidden {
+  top: -80px; /* ajusta según la altura de tu navbar */
+}
+
+.nav-link.activo {
+  border-bottom: 2px solid #000;
+}
