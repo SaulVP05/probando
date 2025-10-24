@@ -31,14 +31,20 @@ function activarScrollNavbar() {
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
   });
 }
+function activarEnlaceActual() {
+  const path = window.location.pathname.split("/").pop() || "index.html";
 
-  function activarEnlaceActual() {
-  const path = window.location.pathname.split("/").pop(); // ejemplo: "parts.html"
-  const enlaces = document.querySelectorAll(".nav-link");
+  const enlaces = document.querySelectorAll(".enlace, .enlace2");
 
   enlaces.forEach(enlace => {
-    if (enlace.getAttribute("href") === path) {
+    const href = enlace.getAttribute("href");
+
+    if (href === path || href === `./${path}` || href === `/${path}`) {
       enlace.classList.add("activo");
+
+      if (enlace.classList.contains("enlace2")) {
+        enlace.classList.add("bg-secondary");
+      }
     }
   });
 }

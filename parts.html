@@ -9,7 +9,7 @@
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="./index.css" rel="stylesheet">
+    <link href="./styles/index.css" rel="stylesheet">
     <title>Exposición</title>
 </head>
 
@@ -17,13 +17,20 @@
 
     <header id="header"></header>
 
-    <div lc-helper="background" class="container-fluid mt-5 py-5 mb-5 d-flex justify-content-center" style="  background-image: url('https://travelwisenet.com/wp-content/uploads/2023/09/sculptures-of-pharaohs-and-ancient-egyptian-drawin-2022-03-09-03-00-17-utc-scaled.jpg');
-    background-position: center; background-size:cover; background-repeat:no-repeat">
-        <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" style=" backdrop-filter: blur(6px) saturate(102%);
+    <div lc-helper="background" 
+    class="container-fluid mt-5 py-5 mb-5 d-flex justify-content-center" 
+    style=" background-image: url(./assets/egipto.webp);
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat">
+        
+    <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" 
+    style=" backdrop-filter: blur(6px) saturate(102%);
     -webkit-backdrop-filter: blur(6px) saturate(102%);
     background-color: rgba(255, 255, 255, 0.45);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);">
+
             <div class="lc-block">
                 <div editable="rich">
                     <h2 class="fw-bolder display-3">Piezas de Egipto</h2>
@@ -31,7 +38,9 @@
             </div>
             <div class="lc-block col-md-8">
                 <div editable="rich">
-                    <p class="lead">Explora nuestra colección de piezas auténticas del antiguo Egipto, cada una con su propia historia fascinante que contar. Desde artefactos cotidianos hasta tesoros ceremoniales, descubre la riqueza cultural y la maestría artesanal de una civilización milenaria.
+                    <p class="lead">Explora nuestra colección de piezas auténticas del antiguo Egipto, cada una con su
+                        propia historia fascinante que contar. Desde artefactos cotidianos hasta tesoros ceremoniales,
+                        descubre la riqueza cultural y la maestría artesanal de una civilización milenaria.
                     </p>
                 </div>
             </div>
@@ -41,47 +50,129 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Primera pieza.</h2>
-                <p class="lead">Un gran contenido de marcador de posición para la primera característica aquí. Imagina algo emocionante
-                    prose here.</p>
+                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
             </div>
-            <div class="col-md-5"> <svg aria-label="Placeholder: 500x500"
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
-                    preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                        fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                </svg> </div>
+            <div class="col-md-5">
+                <image src="./assets/prueba.webp" title="Imagen pieza 1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" width="500" />
+            </div>
         </div>
         <hr class="featurette-divider">
         <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading fw-normal lh-1">Segunda pieza.</h2>
-                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
-                    this layout would work with some actual real-world content in place.</p>
+                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
             </div>
-            <div class="col-md-5 order-md-1"> <svg aria-label="Placeholder: 500x500"
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
-                    preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                        fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                </svg> </div>
+            <div class="col-md-5 order-md-1"> 
+                <image src="./assets/prueba.webp" title="Imagen pieza 2" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" width="500" /> 
+            </div>
         </div>
         <hr class="featurette-divider">
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Tercera pieza.</h2>
-                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-                    intended to be actually read, simply here to give you a better view of what this would look like
-                    with some actual content. Your content.</p>
+                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
             </div>
-            <div class="col-md-5"> <svg aria-label="Placeholder: 500x500"
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
-                    preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                        fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                </svg> </div>
+            <div class="col-md-5"> 
+                <image src="./assets/prueba.webp" title="Imagen pieza 3F" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" width="500" /> 
+            </div>
+        </div>
+    </div>
+
+    <div lc-helper="background" 
+    class="container-fluid mt-5 py-5 mb-5 d-flex justify-content-center" 
+    style=" background-image: url(./assets/roma.webp);
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat">
+        
+    <div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" 
+    style=" backdrop-filter: blur(6px) saturate(102%);
+    -webkit-backdrop-filter: blur(6px) saturate(102%);
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);">
+    
+            <div class="lc-block">
+                <div editable="rich">
+                    <h2 class="fw-bolder display-3">Piezas de Roma</h2>
+                </div>
+            </div>
+            <div class="lc-block col-md-8">
+                <div editable="rich">
+                    <p class="lead">Descubre nuestra impresionante colección de piezas auténticas de la antigua Roma, cada una
+                        con su propia historia fascinante que contar. Desde esculturas majestuosas hasta artefactos
+                        cotidianos, explora la riqueza cultural y la maestría artesanal de una civilización que ha
+                        dejado una huella indeleble en la historia del mundo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container marketing">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Primera pieza.</h2>
+                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
+            </div>
+            <div class="col-md-5">
+                <image src="./assets/prueba.webp" title="Imagen pieza 1" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" width="500" />
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Segunda pieza.</h2>
+                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
+            </div>
+            <div class="col-md-5 order-md-1"> 
+                <image src="./assets/prueba.webp" title="Imagen pieza 2" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" width="500" /> 
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Tercera pieza.</h2>
+                <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum.</p>
+            </div>
+            <div class="col-md-5"> 
+                <image src="./assets/prueba.webp" title="Imagen pieza 3F" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" width="500" /> 
+            </div>
         </div>
     </div>
 

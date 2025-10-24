@@ -3,9 +3,9 @@
 }
 
 .navbar-hidden {
-  top: -80px; /* ajusta según la altura de tu navbar */
+  top: -80px;
 }
 
-.nav-link.activo {
+.enlace.activo{
   border-bottom: 2px solid #000;
 }
